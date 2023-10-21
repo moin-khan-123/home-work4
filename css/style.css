@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.main {
+    box-sizing: border-box;
+}
+
+.nright i {
+    display: none;
+}
+
+.nav {
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.nleft,
+.nright {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nleft {
+    width: 35.6%;
+    background-color: rgb(23, 22, 23);
+}
+
+.nleft a,
+.nright a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all .5s;
+}
+
+.nleft img {
+    height: 70%;
+    width: 50%;
+    padding-left: 7%;
+    padding-top: 10%;
+}
+
+.nav a:hover {
+    color: rgb(43, 226, 128);
+}
+
+
+.bleft {
+    background-color: black;
+    height: auto;
+    width: auto;
+}
+
+.bright {
+    background-color: #1c1c1c;
+    height: 100%;
+    width: 36%;
+}
+
+/* ///////////////////////img1///////////////////////// */
+
+.moin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.mleft {
+    display: flex;
+    align-items: center;
+    padding-left: 400px;
+    width: 38%;
+    height: 100%;
+    background-color: #1c1c1c;
+}
+
+.mleft img {
+    border-radius: 80%;
+}
+
+.mright {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    width: 30%;
+    height: 100%;
+    gap: 30px;
+    padding-top: 10%;
+    color: white;
+}
+
+.hero {
+    font-size: 40px;
+}
+
+.button {
+    height: 50px;
+    width: 170px;
+    background-color: rgb(43, 226, 128);
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+
+
+.moin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding-right: 10%;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 8%;
+}
+
+.mleft {
+    display: flex;
+    align-items: center;
+    padding-left: 360px;
+    width: 38%;
+    height: 100%;
+    background-color: #1c1c1c;
+}
+
+.mleft img {
+    border-radius: 80%;
+}
+
+.mright {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    width: 30%;
+    height: 100%;
+    gap: 30px;
+    padding-top: 12%;
+    color: white;
+}
+
+.hero {
+    font-size: 40px;
+}
+
+.button {
+    height: 50px;
+    width: 170px;
+    background-color: rgb(43, 226, 128);
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+/* /////////////////////////page1///////////////////////// */
+
+.page1 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 3% 12%;
+    padding-top: 4%;
+}
+
+.box1 {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(43, 226, 128);
+    border-radius: 50%;
+}
+
+.box2 {
+    height: 8px;
+    width: 8px;
+    background-color: rgb(43, 226, 128);
+    border-radius: 25px;
+    flex-grow: 1;
+}
+
+
+/* //////////////////////page2////////////////////////// */
+
+
+.page2 {
+    display: flex;
+    box-sizing: border-box;
+    gap: 3%;
+    padding: 0 10%;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 6%;
+}
+
+.pleft2 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-startpleft2; */
+    align-items: start;
+    gap: 30px;
+}
+
+.pleft2 {
+    color: white;
+}
+
+.page2 p {
+    text-align: justify;
+}
+
+.page2 img {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    padding-top: 6%;
+}
+
+.font1 {
+    font-size: 40px;
+    color: rgb(43, 226, 128);
+    font-weight: 600;
+}
+
+.font2 {
+    font-size: 18px;
+    padding-right: 10%;
+}
+
+/* //////////////////////////////page3/////////////////////////////// */
+
+.page3 {
+    display: flex;
+    box-sizing: border-box;
+    gap: 3%;
+    padding: 0 10%;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 6%;
+}
+
+.page3 img {
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(43, 226, 128);
+    font-weight: 600;
+    background-color: black;
+}
+
+.box {
+    width: 650px;
+    height: 140px;
+    background-color: #1c1c1c;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.box img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* ///////////////////////////wokr2///////////////////////////////////////// */
+.page3 {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7%;
+    padding-left: 10%;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.lmain {
+    /* background-color: aqua; */
+    height: 80%;
+    width: 40%;
+}
+
+.lmain .c1 {
+    height: 328px;
+    width: 400px;
+}
+
+.lmain p {
+    color: #fff;
+}
+
+.c2 {
+    height: 100%;
+    width: 25%;
+    /* background-color: lawngreen; */
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c2 img {
+    background-size: cover;
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+
+}
+
+.rmain {
+    /* background-color: tomato; */
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 1%;
+    padding-right: 18%;
+}
+
+.bo {
+    padding-left: 2%;
+    font-size: 20px;
+    padding-top: 2%;
+}
+
+.box7 {
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: #1c1c1c;
+    height: 100px;
+    width: 100%;
+    flex-grow: 1;
+    border-radius: 25px;
+    display: flex;
+    color: #fff;
+}
+
+/* ///////////////////////////work3////////////////////////////// */
+
+.main {
+    padding-bottom: 4%;
+}
+
+.moin6 {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(43, 226, 128);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.color {
+    color: #fff;
+    text-indent: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.moin3 {
+    height: 50px;
+    width: 340px;
+    border-radius: 25px;
+    border: 2.5px solid white;
+    background-color: black;
+    color: white;
+}
+
+.moin3:hover {
+    border: 2.5px solid rgb(43, 226, 128);
+    transition: all 0.5s;
+}
+
+.moin4 {
+    height: 150px;
+    width: 340px;
+    border: 2.5px solid white;
+    border-radius: 25px;
+    background-color: black;
+    color: #fff;
+}
+
+.moin4:hover {
+    border: 2.5px solid rgb(43, 226, 128);
+    transition: all 1s;
+}
+
+.moin5 {
+    height: 50px;
+    width: 150px;
+    /* background-color: rgb(43, 226, 128); */
+    border: 2.5px solid white;
+    border-radius: 25px;
+    color: white;
+}
+
+.ri-rocket-line {
+    color: tomato;
+    font-size: 30px;
+}
+
+.mo i {
+    color: rgb(43, 226, 128);
+    font-size: 36px;
+}
+
+.mo img {
+    height: 400px;
+    width: 400px;
+}
+
+.ok {
+    width: 130px;
+    height: 50px;
+    background-color: rgb(43, 226, 128);
+    border-radius: 25px;
+    box-sizing: border-box;
+
+}
+
+.ok .po {
+    text-align: start;
+    padding-left: 45px;
+    color: black;
+    font-size: 16px;
+}
+
+.ok:hover {
+    font-size: 30px;
+    height: 60px;
+    width: 150px;
+    transition: all 1s;
+    text-align: center;
+}
+
+.po:hover {
+    color: #fff;
+    font-size: 20px;
+    transition: all 2s;
+}
+
+.box5 .co {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.mon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.box5 {
+    height: 70px;
+    width: 400px;
+    /* background-color: tomato; */
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box5 p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.box6 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 20px;
+    height: 140px;
+    width: 400px;
+    color: rgb(43, 226, 128)
+        /* background-color:rgb(43, 226, 128); */
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
